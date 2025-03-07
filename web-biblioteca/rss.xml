@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Library MBC - Novedades</title>
+        <link>https://github.com/Mkuma98/web-libreria</link>
+        <description>Últimas novedades de Library MBC</description>
+        <language>es</language>
+        <item>
+            <title>Lanzamiento de Alas de Onix</title>
+            <link>https://github.com/Mkuma98/web-libreria</link>
+            <description>No te pierdas la tercera entrega de la serie Empíreo, tras Alas de sangre y Alas de hierro.</description>
+        </item>
+        <item>
+            <title>Guerra de Venom</title>
+            <link>https://github.com/Mkuma98/web-libreria</link>
+            <description>La "Guerra de Venom" el último cómic hasta la fecha del simbionte está siendo un éxito sin precedentes.</description>
+        </item>
+        <item>
+            <title>El último anillo</title>
+            <link>https://github.com/Mkuma98/web-libreria</link>
+            <description>Este libro nos lo ha recomendado nuestro editor, lo tiene fascinado. No podéis perder la oportunidad, leedlo.</description>
+        </item>
+        <item>
+            <title>Sakamoto Day’s</title>
+            <link>https://github.com/Mkuma98/web-libreria</link>
+            <description>El anime y manga de nuestro querido Sakamoto está siendo un éxito. Incluso la gente de Pull&amp;Bear ha hecho una colaboración de prendas de vestir increíbles.</description>
+        </item>
+    </channel>
+</rss>
