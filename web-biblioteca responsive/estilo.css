@@ -1,0 +1,158 @@
+body{
+    padding: 30px;
+    background-image: url(./sources/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;  
+    color: rgb(64, 62, 62);
+}
+
+
+nav li {
+    display: inline;
+    margin-left: 50px;
+    text-shadow: -1px -1px 1px black, 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black;
+}
+
+nav li>a:hover{
+    text-shadow: 0 0 6px;
+}
+
+.contenedorindex{
+    justify-content: space-between;
+    display: flex;
+    gap: 20;
+    flex-wrap: wrap;
+}
+.novedades {
+    background-color: #00000000;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.novedades h3 {
+    background-color: #969ca1;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    min-height: 40px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.novedades img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contenedorservicio{
+    justify-content: space-between;
+    display: flex;
+    gap: 20;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+
+.servicio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.contenedor-libros {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-height: 500px;
+    margin-bottom: 50px;
+}
+.libro {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    max-width: 300px;
+    text-align: center;
+}
+.libro img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 250px;
+}
+.libro h3 {
+    background-color: #050708;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    min-height: 40px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+.libro p {
+    padding: 10px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+.novedades {
+    width: 100%; 
+    margin: 10px 0;
+}
+
+nav li {
+    display: block; 
+    margin: 15px 0;
+}
+
+.header-texto {
+    font-size: 1.8rem; 
+}
+
+nav ul {
+    display: none;
+}
+.menu-mobile {
+    display: block;
+}
+}
